@@ -1,0 +1,34 @@
+.img-responsive {
+    width: 80px;
+}
+
+.professional span {
+    float: left;
+    text-align: justify;
+}
+
+.value {
+    border: 1px solid #fbb56f;
+    border-radius: 15px;
+}
+
+.service-photo {
+    width: 75px;
+    height: 75px;
+}
+
+.fa-professional {
+    color: #fbb56f;
+}
+
+#comments {
+    padding-left: 20px;
+}
+
+#comments li {
+    color: #fbb56f;
+}
+
+#comments span {
+    color: #000;
+}

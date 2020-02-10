@@ -1,0 +1,33 @@
+.card-img-overlay h3 {
+    color: #ef6ea7;
+    text-transform: uppercase;
+    text-align: initial;
+    font-family: 'Paytone One', sans-serif;
+    /* font-weight: 700; */
+}
+
+.card-img-overlay p {
+    color: #fff;
+    text-align: initial;
+}
+
+.margin-img-home {
+    margin-left: 10%;
+}
+
+.prices {
+    margin: auto;
+    border-left: 2px #ef6ea7 solid;
+    min-height: 100px;
+}
+
+.prices h2 {
+    color: #fbb46f;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.prices h4 {
+    font-family: 'Bubbler One', sans-serif;
+    margin-top: -15px;
+}

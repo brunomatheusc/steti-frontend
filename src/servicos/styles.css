@@ -1,0 +1,34 @@
+.border-bottom {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.border-bottom:hover {
+    cursor: pointer;
+}
+
+.profile-service {
+    width: 50px;
+}
+
+.profile {
+    padding-right: 0;
+}
+
+.name {
+    float: left;
+    margin: auto auto auto 0;
+    padding-left: 0
+}
+
+#table-services table h5 {
+    color: #ef6ea7;
+}
+
+#table-services td span {
+    font-size: 12px;
+}
+
+#table-services tr td:nth-child(2) {
+    width: 55%;
+    text-align: justify;
+}

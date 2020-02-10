@@ -1,0 +1,25 @@
+/* input.form-control {
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+select.form-control {
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+textarea.form-control {
+    border-radius: 10px;
+    border: 1px solid #000;
+} */
+
+.div-banner {
+    min-height: 100%;
+    background-color: #d1d1d1;
+}
+
+.preview {
+    min-height: 120px;
+    border: 1px solid #000;
+    border-radius: 2px;
+}

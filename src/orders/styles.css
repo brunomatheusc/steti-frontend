@@ -1,0 +1,30 @@
+.order-profile {
+    display: inline-grid;
+}
+
+.order-profile img {
+    width: 60px !important;
+}
+
+.order-profile span {
+    padding-top: 10px;
+}
+
+.order-title {
+    float: left;
+    font-weight: bold;
+}
+
+.order-date {
+    float: left;
+}
+
+.order-header {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 15px !important;
+}
+
+.order-options {
+    float: left;
+}

@@ -1,0 +1,12 @@
+.breadcrumb {
+    background-color: #fff !important;
+}
+
+.active {
+    color: #f174a4 !important;
+    /* font-weight: 700; */
+}
+
+.breadcrumb-item {
+    letter-spacing: 2px;
+}
