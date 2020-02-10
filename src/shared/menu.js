@@ -15,7 +15,7 @@ export default function Menu() {
                                 <div className="col-md-12">
                                     <ul id="howItWorks" className="pull-right">
                                         <li><a href="#" className="text-uppercase text-underline"><strong>Como funciona</strong></a></li>
-                                        <li><a href="#" className="text-uppercase text-underline"><strong>Planos</strong></a></li>
+                                        <li><a href="/planos" className="text-uppercase text-underline"><strong>Planos</strong></a></li>
                                         <li><a href=""><button className="btn btn-primary">Quero ser um profissional</button></a></li>
                                         <li><img src="/assets/img/logo-3.png" alt="" className="img-responsive logo"/></li>
                                     </ul>

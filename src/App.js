@@ -6,7 +6,7 @@ import Footer from './shared/footer';
 function App() {
     return (
         <>
-            <div className="App" style={{ minHeight: '90vh'}}>
+            <div className="App" style={{ minHeight: '100vh'}}>
                 <Routes/>
             </div>
 
