@@ -1,28 +1,29 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './../home/index';
-import Plans from './../plans/index';
+
+import Home from '../pages/home/index';
+import Plans from '../pages/plans/index';
 import Services from './../servicos/index';
-import Professional from '../professional';
+import Professional from '../pages/professional';
 import ServiceList from './../servicos/list/index';
 import ServiceNew from './../servicos/new/index';
-import Orders from '../orders';
-import Payments from './../payments/index';
-import Login from './../login/index';
+import Orders from '../pages/orders';
+import Payments from '../pages/payments/index';
+import Login from '../pages/login/index';
 
 export default function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact>{ Home }</Route>
-                <Route path="/login">{ Login }</Route>
-                <Route path="/meus-pedidos" exact>{ Orders }</Route>
-                <Route path="/meus-servicos" exact>{ ServiceList }</Route>
-                <Route path="/meus-servicos/adicionar">{ ServiceNew }</Route>
-                <Route path="/pagamentos">{ Payments }</Route>
-                <Route path="/planos">{ Plans }</Route>
-                <Route path="/servicos/:serviceType?">{ Services }</Route>
-                <Route path="/professional/:professionalId?">{ Professional }</Route>
+                <Route path="/" exact component={ Home }></Route>
+                <Route path="/login" component={ Login }></Route>
+                <Route path="/meus-pedidos" exact component={ Orders }></Route>
+                <Route path="/meus-servicos" exact component={ ServiceList }></Route>
+                <Route path="/meus-servicos/adicionar" component={ ServiceNew }></Route>
+                <Route path="/pagamentos" component={ Payments }></Route>
+                <Route path="/planos" component={ Plans }></Route>
+                <Route path="/servicos/:serviceType?" component={ Services }></Route>
+                <Route path="/professional/:professionalId?" component={ Professional }></Route>
             </Switch>
         </BrowserRouter>
     );

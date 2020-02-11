@@ -1,8 +1,8 @@
 import React from 'react';
 
 import './styles.css';
-import Menu from '../shared/menu';
-import MenuList from '../components/MenuList/MenuList';
+import Menu from '../../shared/menu';
+import MenuList from '../../components/MenuList/MenuList';
 
 export default function Payments() {
     return (

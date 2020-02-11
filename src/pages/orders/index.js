@@ -1,9 +1,9 @@
 import React from 'react';
 
 import './styles.css';
-import MenuList from '../components/MenuList/MenuList';
-import Menu from './../shared/menu';
-import Breadcumb from './../shared/breadcumb';
+import MenuList from '../../components/MenuList/MenuList';
+import Menu from '../../shared/menu';
+import Breadcumb from '../../shared/breadcumb';
 
 export default function Orders() {
     return (

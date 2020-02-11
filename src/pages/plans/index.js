@@ -1,8 +1,8 @@
 import React from 'react';
 
 import './styles.css';
-import Menu from '../shared/menu';
-import Footer from '../shared/footer';
+import Menu from '../../shared/menu';
+import Footer from '../../shared/footer';
 
 export default function Plans() {
     return (

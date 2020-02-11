@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './styles.css';
-import Menu from './../shared/menu';
+import Menu from '../../shared/menu';
 
 export default function Home() {
     return (

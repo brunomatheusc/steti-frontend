@@ -1,8 +1,8 @@
 import React from 'react';
 
 import './styles.css';
-import Menu from './../shared/menu';
-import Breadcumb from './../shared/breadcumb';
+import Menu from '../../shared/menu';
+import Breadcumb from '../../shared/breadcumb';
 
 export default function Professional() {
     return (

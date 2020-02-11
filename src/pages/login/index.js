@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './styles.css';
+import Api from '../../services/Api';
 
 export default function Login() {
+    const [ username, setUsername ] = useState('');
+    const [ password, setPassword ] = useState('');
+
+    async function handleLogin(){
+        try {
+            const response = await Api.post('/login');
+
+            console.log(response);
+        } catch (error) {
+            console.log(error.response);            
+        }
+    }
+    
     return (
         <>
             <div className="container">
